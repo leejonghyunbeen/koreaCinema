@@ -6,6 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 <body>
     <header>
@@ -90,13 +96,24 @@
                     </div>
                 </div>
                 <div class="menu_list_wrap">
-                    <div class="list_main">
-                        <a href="#">예매내역</a>
-                    </div>
                     <ul class="list_all">
                         <li>
-                            <a href="#" class="moive list_title">영화</a>
-                            <img src="./images/" alt="위로이미지">
+                            <div class="title_wrap">
+                                <a href="#" class="reservation list_title">예매</a>
+                                <img src="./images/" alt="위로이미지">
+                            </div>
+                            <ul class="moive_contens list_sub">
+                                <li><a href="#">예매해기</a></li>
+                                <li><a href="#">예매내역</a></li>
+                                <li><a href="#">빠른예매</a></li>
+                                <li><a href="#">상영시간표</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="title_wrap">
+                                <a href="#" class="moive list_title">영화</a>
+                                <img src="./images/" alt="위로이미지">
+                            </div>
                             <ul class="moive_contens list_sub">
                                 <li><a href="#">현재상영작</a></li>
                                 <li><a href="#">상영예정작</a></li>
@@ -104,8 +121,10 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#" class="theater list_title">극장</a>
-                            <img src="./images/" alt="위로이미지">
+                            <div class="title_wrap">
+                                <a href="#" class="theater list_title">극장</a>
+                                <img src="./images/" alt="위로이미지">
+                            </div>
                             <ul class="theater_contens list_sub">
                                 <li><a href="#">극장 소개</a></li>
                                 <li><a href="#">상영관별 좌석도</a></li>
@@ -115,8 +134,10 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#" class="event list_title">이벤트</a>
-                            <img src="./images/" alt="위로이미지">
+                            <div class="title_wrap">
+                                <a href="#" class="event list_title">이벤트</a>
+                                <img src="./images/" alt="위로이미지">
+                            </div>
                             <ul class="event_contens list_sub">
                                 <li><a href="#">당첨자</a></li>
                                 <li><a href="#">이벤트</a></li>
@@ -128,10 +149,28 @@
             <div class="menu_banner">
                 <img src="./images/index_img/ad_img.png" alt="#">
             </div>
+            <div class="sub_info">
+                <ul>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">오시는 길</a></li>
+                    <li><a href="#">전자공고</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
-
+        <div class="footer">
+            <div class="footer_wrap">
+                <div class="footer_img">
+                    <a href="#"><img src="./images/index_img/date_img.png" alt="#"></a>
+                </div>
+                <div class="day_data">
+                    <p class="now_day">2024-03</p>
+                </div>
+                <div></div>
+            </div>
+        </div>
     </main>
 </body>
 </html>

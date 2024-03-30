@@ -158,7 +158,12 @@ header .menu_sub .menu_survice .menu_icon .icon_contents .icon_btn4 button {
     background-image: url(../images/index_img/icon_04.png);
 } 
 /* 영화 극장 예매 */
-header .menu_sub .menu_survice .menu_list_wrap{}
+header .menu_sub .menu_survice .title_wrap{
+    display: flex; align-items: center; justify-content: space-between;
+}
+header .menu_sub .menu_survice .menu_list_wrap{
+    margin-top: 24px;
+}
 header .menu_sub .menu_survice .menu_list_wrap .list_main{
     margin-top: 5px;
      padding: 20px 0 ;
@@ -176,5 +181,29 @@ header .menu_sub .menu_survice .menu_list_wrap .list_sub a{
     display: none;
 }
 header .menu_sub .menu_survice .menu_list_wrap .list_all li{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+header .menu_sub .sub_info {}
+header .menu_sub .sub_info ul {
+    display: flex; padding-left: 30px;
+}
+header .menu_sub .sub_info ul li {
+    position: relative; margin-right: 23px;
+}
+header .menu_sub .sub_info ul li a {
+    color: #c4c4c4; line-height: 50px; font-size: 0.813rem;
+}
+header .menu_sub .sub_info ul li a::after {
+    content: ""; display: block; width: 1px; height: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;     top: 41%;
+    left: -13px;
+}
+header .menu_sub .sub_info ul li:first-child a::after {
+    display: none;
+}
+.footer {position: absolute; left: 80px;
+    background: #020001;
+    width: calc(100% - 80px);
+    height: 70px; bottom: 0;
 }
