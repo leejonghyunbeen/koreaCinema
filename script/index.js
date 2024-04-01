@@ -22,11 +22,6 @@ let banner_slide = new Swiper('.content_box',{
 })
 
 
-
-
-
-
-
 const menu_sub = document.querySelector('.menu_sub')
 const menu_btn = document.querySelector('.menu_btn')
 let menu_result = true
@@ -45,3 +40,7 @@ menu_result = !menu_result
 })
 
 
+const list_sub =document.querySelectorAll('.list_sub')
+for(let i of list_sub){
+    
+}
