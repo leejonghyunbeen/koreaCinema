@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1:1 문의 - FAQ</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>고객센터</h1>
+            <!-- 상단탭 -->
+            <div class="customerService">
+                <a href="./customerService_faq.html" target="_blank">FAQ</a>
+                <a href="./inquiry_faq.html" target="_blank">1:1문의</a>
+                <a href="./notice_faq.html" target="_blank">공지사항</a>
+            </div>
+            <div class="userInformation">
+                <h1>개인정보 수집에 대한 동의</h1>
+                <form action="#" method="get" id="agree">
+                    <fieldset>
+                        <legend class="skip">개인정보수집 동의 양식</legend>
+                        <div class="textBox">
+                            고객님께서 문의하신 다음의 내역은 법률에 의거 개인정보 수집·이용에 대한 동의가 필요한 항목입니다
+                            [개인정보의 수집 및 이용목적]<br>
+                            회사는 문의 내역의 확인, 요청사항 처리 또는 완료 시 원활한 의사소통 경로 확보를 위해 수집하고 있습니다.<br>
+                            <br>
+                            [수집하는 개인정보의 항목]<br>
+                            이름, 연락처, 이메일 주소<br>
+                            <br>
+                            [개인정보의 보유기간 및 이용기간]<br>
+                            문의 접수 ~ 처리 완료 후 6개월<br>
+                            (단, 관계법령의 규정에 의하여 보존 할 필요성이 있는 경우에는 관계 법령에 따라 보존)<br>
+                            자세한 내용은 ‘개인정보 처리방침’을 확인하시기 바랍니다.
+                        </div>
+                        <div class="radioAgree">
+                            <label class="chk" for="chkAgree">
+                                <input type="radio" name="chkAgree" id="chkAgree">
+                                <span>동의</span>
+                            </label>
+                            <label class="chk" for="chkDisAgree"> 
+                                <input type="radio" name="chkDisAgree" id="chkDisAgree">
+                                <span>동의하지 않음</span>
+                            </label>
+                        </div>
+                        <div class="user">
+                            <dl>
+                                <dt>극장</dt>
+                                <dd>대한극장</dd>
+                                <dt>이름</dt>
+                                <dd>
+                                    <input type="text" name="name" id="name">
+                                    <p class="errorMassage">필수로 입력하세요.</p>
+                                </dd>
+                                <dt>이메일</dt>
+                                <dd>
+                                    <input type="email" name="email" id="email">
+                                    <p class="errorMassage">필수로 입력하세요.</p>
+                                </dd>
+                                <dt>휴대폰 번호</dt>
+                                <dd><input type="text" name="phone" id="phone"></dd>
+                                <dt>문의 유형</dt>
+                                <dd>
+                                    <div class="select">
+                                        <select name="type" id="type">
+                                            <option>예매</option>
+                                            <option>결재/취소</option>
+                                            <option>멤버십</option>
+                                            <option>회원정보</option>
+                                            <option>기타</option>
+                                        </select>
+                                        <p><i class="fa-solid fa-chevron-down"></i></p>
+                                    </div>
+                                </dd>
+                                <dt>제목</dt>
+                                <dd>
+                                    <input type="text" name="title" id="title">
+                                    <p class="errorMassage">필수로 입력하세요.</p>
+                                </dd>
+                                <dt>내용</dt>
+                                <dd>
+                                    <input type="text" name="textBox" id="textBox" placeholder="내용을입력하세요.">
+                                    <p class="errorMassage">This field is required.</p>
+                                </dd>
+                            </dl>
+                            <button type="button" class="registration">등록</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
