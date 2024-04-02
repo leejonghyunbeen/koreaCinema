@@ -1,73 +1,88 @@
 main {
-    background: #000;
+  background: #000;
+  width: 100vw;
+  height: 100vh;
 }
-main .login_bg {}
 main .login_bg .login {
-    max-width: 600px; border: 1px solid rgba(255, 255, 255, 0.4);
-    padding: 50px 100px;
+  max-width: 600px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 50px 100px;
 }
 main .login_bg .login .top {
-    text-align: center;
+  text-align: center;
 }
 main .login_bg .login .top h2 {
-    color: #fff; font-size: 1.875rem;
+  color: #fff;
+  font-size: 1.875rem;
 }
 main .login_bg .login .top p {
-    color: #fff; margin: 16px 0 50px;
+  color: #fff;
+  margin: 16px 0 50px;
 }
-main .login_bg .login #loginFrm {}
 main .login_bg .login #loginFrm fieldset {
-    display: flex; flex-flow: column nowrap;
-    justify-content: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
 }
 main .login_bg .login #loginFrm fieldset .login_non {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-    display: flex; margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  display: flex;
+  margin-bottom: 20px;
 }
 main .login_bg .login #loginFrm fieldset .login_non a {
-    font-size: 1.25rem; color: #fff;
-    width: 50%; display: inline-block;
-    padding-bottom: 10px; text-align: center;
+  font-size: 1.25rem;
+  color: #fff;
+  width: 50%;
+  display: inline-block;
+  padding-bottom: 10px;
+  text-align: center;
 }
 main .login_bg .login #loginFrm fieldset .login_non a:last-child {
-    border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
-main .login_bg .login #loginFrm fieldset #userName {
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 5px; margin-bottom: 10px;
-    height: 52px; padding: 0 20px; color: #fff;
-}
-main .login_bg .login #loginFrm fieldset #userTel {
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 5px; margin-bottom: 10px;
-    height: 52px; padding: 0 20px; color: #fff;
-}
+main .login_bg .login #loginFrm fieldset #userName,
+main .login_bg .login #loginFrm fieldset #userTel,
 main .login_bg .login #loginFrm fieldset #userPw {
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 5px; margin-bottom: 10px;
-    height: 52px; padding: 0 20px; color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 52px;
+  padding: 0 20px;
+  color: #fff;
 }
 main .login_bg .login #loginFrm fieldset #loginBtn {
-    background: #f9880a; color: #fff;
-    height: 50px; border-radius: 5px; margin-top: 15px;
+  background: #f9880a;
+  color: #fff;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 15px;
 }
 main .login_bg .login #loginFrm fieldset .join_find {
-    margin-top: 20px; text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
 main .login_bg .login #loginFrm fieldset .join_find a {
-    color: #c4c4c4; font-size: 0.813rem;
-    position: relative; margin-right: 10px;
-    padding-right: 10px;
+  color: #c4c4c4;
+  font-size: 0.813rem;
+  position: relative;
+  margin-right: 10px;
+  padding-right: 10px;
 }
 main .login_bg .login #loginFrm fieldset .join_find a:last-child {
-    padding: 0; margin: 0;
+  padding: 0;
+  margin: 0;
 }
 main .login_bg .login #loginFrm fieldset .join_find a:last-child::after {
-    background: none;
+  background: none;
 }
 main .login_bg .login #loginFrm fieldset .join_find a::after {
-    content: ''; background: #c4c4c4;
-    width: 1px; height: 10px; display: inline-block;
-    position: absolute; top: 50%; right: 0;
-    transform: translateY(-50%);
-}
+  content: "";
+  background: #c4c4c4;
+  width: 1px;
+  height: 10px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}/*# sourceMappingURL=non_login.css.map */

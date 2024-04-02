@@ -1,0 +1,187 @@
+main {
+  background: #000;
+}
+main .join_bg .join_box {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+main .join_bg .join_box h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: 700;
+  padding: 60px 0 30px;
+}
+main .join_bg .join_box .step_wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+main .join_bg .join_box .step_wrap .step {
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  width: 350px;
+  height: 56px;
+}
+main .join_bg .join_box .step_wrap .step img {
+  margin-right: 10px;
+}
+main .join_bg .join_box .step_wrap .step .num {
+  color: #fff;
+  font-size: 0.875rem;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .join_bg .join_box .step_wrap .step .text {
+  color: #fff;
+  font-size: 1.125rem;
+}
+main .join_bg .join_box #agreeFrm {
+  width: 100%;
+}
+main .join_bg .join_box #agreeFrm fieldset .all_chk {
+  margin-bottom: 60px;
+}
+main .join_bg .join_box #agreeFrm fieldset .all_chk #allChk {
+  display: none;
+}
+main .join_bg .join_box #agreeFrm fieldset .all_chk #allChk:checked + label::before {
+  background: #f9880a;
+  border: 2px solid #f9880a;
+  background-image: url(../images/step_check.svg);
+  background-position: center;
+  background-size: contain;
+}
+main .join_bg .join_box #agreeFrm fieldset .all_chk label {
+  position: relative;
+  padding-left: 32px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.125rem;
+  text-decoration: underline;
+}
+main .join_bg .join_box #agreeFrm fieldset .all_chk label::before {
+  content: "";
+  display: inline-block;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+main .join_bg .join_box #agreeFrm fieldset .agreeBox {
+  margin-bottom: 60px;
+}
+main .join_bg .join_box #agreeFrm fieldset .agreeBox .agree_chk_001 {
+  margin-bottom: 20px;
+}
+main .join_bg .join_box #agreeFrm fieldset .agreeBox .agree_chk_001 #agreeChk_001 {
+  display: none;
+}
+main .join_bg .join_box #agreeFrm fieldset .agreeBox .agree_chk_001 #agreeChk_001:checked + label::before {
+  background: #f9880a;
+  border: 2px solid #f9880a;
+  background-image: url(../images/step_check.svg);
+  background-position: center;
+  background-size: contain;
+}
+main .join_bg .join_box #agreeFrm fieldset .agreeBox .agree_chk_001 label {
+  position: relative;
+  padding-left: 32px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.125rem;
+}
+main .join_bg .join_box #agreeFrm fieldset .agreeBox .agree_chk_001 label::before {
+  content: "";
+  display: inline-block;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+main .join_bg .join_box #agreeFrm fieldset .agreeBox #agreeContents_001 {
+  color: #fff;
+  width: 100%;
+  background: none;
+  padding: 25px;
+}
+main .join_bg .join_box #agreeFrm fieldset .agreeBox {
+  margin-bottom: 60px;
+}
+main .join_bg .join_box #agreeFrm fieldset .agreeBox .agree_chk_002 {
+  margin-bottom: 20px;
+}
+main .join_bg .join_box #agreeFrm fieldset .agreeBox .agree_chk_002 #agreeChk_002 {
+  display: none;
+}
+main .join_bg .join_box #agreeFrm fieldset .agreeBox .agree_chk_002 #agreeChk_002:checked + label::before {
+  background: #f9880a;
+  border: 2px solid #f9880a;
+  background-image: url(../images/step_check.svg);
+  background-position: center;
+  background-size: contain;
+}
+main .join_bg .join_box #agreeFrm fieldset .agreeBox .agree_chk_002 label {
+  position: relative;
+  padding-left: 32px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.125rem;
+}
+main .join_bg .join_box #agreeFrm fieldset .agreeBox .agree_chk_002 label::before {
+  content: "";
+  display: inline-block;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+main .join_bg .join_box #agreeFrm fieldset .agreeBox #agreeContents_002 {
+  color: #fff;
+  width: 100%;
+  background: none;
+  padding: 25px;
+}
+main .join_bg .join_box #agreeFrm fieldset .button {
+  display: flex;
+  margin-bottom: 90px;
+  justify-content: center;
+}
+main .join_bg .join_box #agreeFrm fieldset .button #cancelBtn {
+  font-weight: 700;
+  width: 140px;
+  height: 50px;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+main .join_bg .join_box #agreeFrm fieldset .button #submitBtn {
+  font-weight: 700;
+  width: 140px;
+  height: 50px;
+  border-radius: 5px;
+  color: #fff;
+  background: #f9880a;
+}/*# sourceMappingURL=agree.css.map */

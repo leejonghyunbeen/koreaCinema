@@ -1,0 +1,62 @@
+main {
+    background: #000;
+    height: 100vh; width: 100vw;
+    .join_bg {
+        .join_box {
+            display: flex; flex-flow: column nowrap;
+            justify-content: center; align-items: center;
+            h2 {
+                color: #fff; text-align: center;
+                font-size: 1.875rem; font-weight: 700;
+                padding: 60px 0 30px;
+            }
+            .step_wrap {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 60px;
+                .step {
+                    padding: 0 60px;
+                    display: flex; align-items: center;
+                    border: 1px solid rgba(255, 255, 255, 0.4);
+                    width: 350px; height: 56px;
+                    img {
+                        margin-right: 10px;
+                    }
+                    .num {
+                        color: #fff;
+                        font-size: 0.875rem;
+                        width: 24px; height: 24px;
+                        border-radius: 50%; margin-right: 10px;
+                        background: rgba(255, 255, 255, 0.2);
+                        display: flex; align-items: center;
+                        justify-content: center;
+                    }
+                    .text {
+                        color: #fff;
+                        font-size: 1.125rem;
+                    }
+                }
+            }
+            .certification {
+                max-width: 400px;
+                h3 {
+                    color: #fff; font-weight: 700;
+                    font-size: 1.25rem;
+                    margin-bottom: 30px;
+                    text-align: center;
+                }
+                #certificationBtn {
+                    border: 1px solid #fff;
+                    color: #fff; font-weight: 700;
+                    width: 100%; height: 50px;
+                    border-radius: 5px;
+                    margin-bottom: 16px;
+                }
+                p {
+                    color: #fff;
+                    font-size: 0.813rem;
+                }
+            }
+        }
+    }
+}

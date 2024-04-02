@@ -1,0 +1,57 @@
+.membership_main {
+    width: calc(100% - 80px);
+    height: calc(100vh - 150px);
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 6rem;
+}
+.membership_main section .main_box  {
+    width: 100%;
+    margin-top: 150px;
+}
+.membership_main section .main_box h1{
+    color: #fff; font-size: 1.375rem; font-weight: bold;
+}
+/* 공통 p */
+.membership_main section .main_box p {
+    color: #fff; font-weight: 500;
+}
+.membership_main section .main_box .pw_contents {
+    text-align: center;
+}
+.membership_main section .main_box .btn_area button {
+    font-size: 0.875rem; width: 126px; height: 45px;
+}
+
+
+/* 개별 */
+.membership_main section .main_box .pw_main {
+    font-size: 1.688rem;
+    padding: 54px 0 13.5px;
+    border-top:  #fff  1px solid ;
+    margin-top: 18px;
+}
+.membership_main section .main_box .pw_sub {
+    margin-bottom: 16px;
+}
+.membership_main section .main_box .pw_contents input {
+    width: 402px; height: 52px; border: 1px solid #fff; 
+    border-radius: 5px; padding: 20px; color: #fff;
+}
+.membership_main section .main_box .btn_area {
+    display: flex; justify-content: center; 
+    margin: 36px 0 108px;
+}
+.membership_main section .main_box .btn_area .cancellation {
+    border: 1px solid #fff; color: #fff; 
+    border-radius: 5px; margin-right: 10px;
+    font-weight: 500;
+}
+.membership_main section .main_box .btn_area .check{
+    border: 1px solid #F9880A;
+    color: #fff; font-weight: 500;
+    border-radius: 5px;
+    background-color: #F9880A;
+}

@@ -1,0 +1,91 @@
+main {
+    background: #000;
+    width: 100vw; height: 100vh;
+    .login_bg {
+        .login {
+            max-width: 600px;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            padding: 50px 100px;
+            .top {
+                text-align: center;
+                h2 {
+                    color: #fff;
+                    font-size: 1.875rem;
+                }
+                p {
+                    color: #fff;
+                    margin: 16px 0 50px;
+                }
+            }
+            #loginFrm {
+                fieldset {
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    .login_non {
+                        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+                        display: flex;
+                        margin-bottom: 20px;
+                        a {
+                            font-size: 1.25rem;
+                            color: #fff;
+                            width: 50%;
+                            display: inline-block;
+                            padding-bottom: 10px;
+                            text-align: center;
+                            &:last-child {
+                                border-bottom: 2px solid #fff;
+                            }
+                        }
+                    }
+                    #userName,
+                    #userTel,
+                    #userPw {
+                        border: 1px solid rgba(255, 255, 255, 0.4);
+                        border-radius: 5px;
+                        margin-bottom: 10px;
+                        height: 52px;
+                        padding: 0 20px;
+                        color: #fff;
+                    }
+                    #loginBtn {
+                        background: #f9880a;
+                        color: #fff;
+                        height: 50px;
+                        border-radius: 5px;
+                        margin-top: 15px;
+                    }
+                    .join_find {
+                        margin-top: 20px;
+                        text-align: center;
+                        a {
+                            color: #c4c4c4;
+                            font-size: 0.813rem;
+                            position: relative;
+                            margin-right: 10px;
+                            padding-right: 10px;
+                            &:last-child {
+                                padding: 0;
+                                margin: 0;
+                                &::after {
+                                    background: none;
+                                }
+                            }
+                            &::after {
+                                content: '';
+                                background: #c4c4c4;
+                                width: 1px;
+                                height: 10px;
+                                display: inline-block;
+                                position: absolute;
+                                top: 50%;
+                                right: 0;
+                                transform: translateY(-50%);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

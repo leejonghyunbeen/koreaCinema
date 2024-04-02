@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대한극장</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="top_header">
+            <div class="logo">
+                <a href="#" class="logo0"><img src="./images/index_img/logo.png" alt=""></a>
+            </div>
+            <div class="header_wrap">
+                <ul class="header_nav">
+                    <li>
+                        <a href="#">예매</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">예매</a></li>
+                            <li><a href="#">예매내역</a></li>
+                            <li><a href="#">빠른예매</a></li>
+                            <li><a href="#">상영시간표</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">영화</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">현재상영작</a></li>
+                            <li><a href="#">상영예정작</a></li>
+                            <li><a href="#">기획작</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">극장</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">극장 소개</a></li>
+                            <li><a href="#">상영관별 좌석도</a></li>
+                            <li><a href="#">위치 및 교통편</a></li>
+                            <li><a href="#">대관 안내</a></li>
+                            <li><a href="#">관람 요금</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">이벤트</a>
+                        <ul class="sub_menu">
+                            <a href="#">이벤트</a>
+                            <a href="#">당첨자</a>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="header_login">
+                <a href="#" class="header_loginBtn">로그인</a>
+                <a href="#">회원가입</a>
+            </div>
+        </div>
+        <div class="left_menu">
+            <div class="menu_contents">
+                <button type="button" class="menu_btn"></button>
+                <p class="menu_text">
+                    Copyright ⓒ em 대한극장 All Rights Reserved.
+                </p>
+                <div class="menu_sns">
+                    <button type="button" class="facebook"></button>
+                    <button type="button" class="youtube"></button>
+                    <button type="button" class="instar"></button>
+                </div>
+            </div>
+        </div>
+        <div class="menu_sub">
+            <div class="menu_survice">
+                <div class="survice_logo">
+                    <a href="#"><img src="./images/index_img/logo.png" alt="#"></a>
+                </div>
+                <div class="menu_title">
+                    <p>대한극장 멤버십 가입하고<br>다양한 할인·적립 혜택을 받아보세요!</p>
+                </div>
+                <div class="menu_jonin_login">
+                    <a href="#">로그인</a>
+                    <a href="#">회원가입</a>
+                </div>
+                <div class="menu_icon">
+                    <div class="icon_contents">
+                        <a href="#" class="icon_btn1"><button type="button">고객센터</button></a>
+                        <a href="#" class="icon_btn2"><button type="button">FAQ</button></a>
+                        <a href="#" class="icon_btn3"><button type="button">1:1 문의</button></a>
+                        <a href="#" class="icon_btn4"><button type="button">멤버십</button></a>
+                    </div>
+                </div>
+                <div class="menu_list_wrap">
+                    <ul class="list_all">
+                        <li>
+                            <div class="title_wrap">
+                                <a href="#" class="reservation list_title">예매</a>
+                                <a href="#" class="reservation_btn"><img src="./images/index_img/menu_arrow.png" alt="위로이미지"></a>
+                            </div>
+                            <ul class="moive_contens list_sub">
+                                <li><a href="#">예매하기</a></li>
+                                <li><a href="#">예매내역</a></li>
+                                <li><a href="#">빠른예매</a></li>
+                                <li><a href="#">상영시간표</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="title_wrap">
+                                <a href="#" class="moive list_title">영화</a>
+                                <a href="#" class="moive_btn" ><img src="./images/index_img/menu_arrow.png" alt="위로이미지"></a>
+                            </div>
+                            <ul class="moive_contens list_sub">
+                                <li><a href="#">현재상영작</a></li>
+                                <li><a href="#">상영예정작</a></li>
+                                <li><a href="#">기획전</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="title_wrap">
+                                <a href="#" class="theater list_title">극장</a>
+                                <a href="#" class="theater_btn"><img src="./images/index_img/menu_arrow.png" alt="위로이미지"></a>
+                            </div>
+                            <ul class="theater_contens list_sub">
+                                <li><a href="#">극장 소개</a></li>
+                                <li><a href="#">상영관별 좌석도</a></li>
+                                <li><a href="#">위치 및 교통편</a></li>
+                                <li><a href="#">대관 안내</a></li>
+                                <li><a href="#">관람 요금</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="title_wrap">
+                                <a href="#" class="event list_title">이벤트</a>
+                                <a href="#" class="event_btn"><img src="./images/index_img/menu_arrow.png" alt="위로이미지"></a>
+                            </div>
+                            <ul class="event_contens list_sub">
+                                <li><a href="#">당첨자</a></li>
+                                <li><a href="#">이벤트</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu_banner">
+                <img src="./images/index_img/ad_img.png" alt="#">
+            </div>
+            <div class="sub_info">
+                <ul>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">오시는 길</a></li>
+                    <li><a href="#">전자공고</a></li>
+                    <li><a href="#">전자공시</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class=" main_contents ">
+            <div class=" swiper-container content_box">
+                <div class="swiper-wrapper main_warp">
+                    <div class="main_banner main_bg1 swiper-slide">
+                        <div class="banner_txt">
+                            <h1>파묘</h1>
+                            <a href="#">예매하기</a>
+                        </div>
+                    </div>
+                    <div class="main_banner main_bg1 swiper-slide">
+                        <div class="banner_txt">
+                            <h1>파묘</h1>
+                            <a href="#">예매하기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination page_nav"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer_wrap">
+                <div class="footer_img">
+                    <a href="#"><img src="./images/index_img/date_img.png" alt="#"></a>
+                </div>
+                <div class="month_data">
+                    <p class="now_month">2024-03</p>
+                </div>
+                <div class="swiper-container day_data">
+                    <div class="swiper-wrapper day_wrap">
+                        <a href="#" class="swiper-slide now_d_day"><button type="button">01</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">02</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">03</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">04</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">05</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">06</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">07</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">08</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">09</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">10</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">11</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">12</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">13</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">14</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">15</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">16</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">17</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">18</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">19</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">21</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">22</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">23</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">24</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">25</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">26</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">27</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">28</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">29</button></a>
+                        <a href="#" class="swiper-slide"><button type="button">30</button></a>
+                    </div>
+                    <a href="#" class="swiper-button-prev menu_prev">
+                        <img src="./images/index_img/prev_img.png" alt="#">
+                    </a>
+                    <a href="#" class="swiper-button-next menu_next">
+                        <img src="./images/index_img/next_img.png" alt="#">
+                    </a>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </main>
+    <script src="./script/index.js"></script>
+</body>
+</html>
