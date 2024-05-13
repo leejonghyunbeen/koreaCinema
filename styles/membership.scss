@@ -1,0 +1,108 @@
+.change_main {
+    width: calc(100% - 80px);
+    height: calc(100vh - 150px);
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 54px;
+    
+    section {
+      .change_box {
+        h1 {
+          color: #fff;
+          font-size: 1.375rem;
+          font-weight: bold;
+          padding-bottom: 20px;
+          border-bottom: 1px solid #fff;
+        }
+        
+        dl {
+          display: flex;
+          flex-flow: row wrap;
+          width: 100%;
+          margin-bottom: 20px;
+          
+          dt, dd, select {
+            color: #fff;
+          }
+          
+          dt, dd {
+            padding: 22px 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+          }
+          
+          dt {
+            width: 13%;
+            border-right: 1px solid rgba(255, 255, 255, 0.4);
+            display: flex;
+            align-items: center;
+            
+            &::before {
+              content: '*';
+              color: #F9880A;
+            }
+          }
+          
+          dd {
+            width: 87%;
+            display: flex;
+            align-items: center;
+            
+            p {
+              color: #fff;
+              border: 1px solid #FFFFFF;
+              width: 200px;
+              padding: 10px 15px;
+              border-radius: 6px;
+              margin: 0 10px;
+            }
+            
+            .change_pw {
+              display: flex;
+            }
+            
+            a {
+              color: #fff;
+              border: 1px solid #FFFFFF;
+              width: 124px;
+              display: block;
+              padding: 10px 0;
+              border-radius: 6px;
+              text-align: center;
+            }
+            
+            input {
+              color: #fff;
+              border: 1px solid #FFFFFF;
+              width: 200px;
+              padding: 10px 15px;
+              border-radius: 6px;
+              margin: 0 10px;
+            }
+          }
+        }
+        
+        .withdrawal {
+          font-size: 0.75rem;
+          color: #a6a6a6;
+          text-decoration: underline;
+          padding-top: 20px;
+        }
+        
+        .last_btn {
+          display: block;
+          width: 140px;
+          border-radius: 4px;
+          background-color: #45487E;
+          text-align: center;
+          padding: 15.5px 0 !important;
+          color: #fff;
+          padding: 25px 0;
+          margin: 0 auto;
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+  

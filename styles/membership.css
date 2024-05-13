@@ -1,57 +1,90 @@
-.membership_main {
-    width: calc(100% - 80px);
-    height: calc(100vh - 150px);
-    position: absolute;
-    top: 80px;
-    left: 80px;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 6rem;
+.change_main {
+  width: calc(100% - 80px);
+  height: calc(100vh - 150px);
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 54px;
 }
-.membership_main section .main_box  {
-    width: 100%;
-    margin-top: 150px;
+.change_main section .change_box h1 {
+  color: #fff;
+  font-size: 1.375rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
 }
-.membership_main section .main_box h1{
-    color: #fff; font-size: 1.375rem; font-weight: bold;
+.change_main section .change_box dl {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  margin-bottom: 20px;
 }
-/* 공통 p */
-.membership_main section .main_box p {
-    color: #fff; font-weight: 500;
+.change_main section .change_box dl dt, .change_main section .change_box dl dd, .change_main section .change_box dl select {
+  color: #fff;
 }
-.membership_main section .main_box .pw_contents {
-    text-align: center;
+.change_main section .change_box dl dt, .change_main section .change_box dl dd {
+  padding: 22px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
-.membership_main section .main_box .btn_area button {
-    font-size: 0.875rem; width: 126px; height: 45px;
+.change_main section .change_box dl dt {
+  width: 13%;
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
 }
-
-
-/* 개별 */
-.membership_main section .main_box .pw_main {
-    font-size: 1.688rem;
-    padding: 54px 0 13.5px;
-    border-top:  #fff  1px solid ;
-    margin-top: 18px;
+.change_main section .change_box dl dt::before {
+  content: "*";
+  color: #F9880A;
 }
-.membership_main section .main_box .pw_sub {
-    margin-bottom: 16px;
+.change_main section .change_box dl dd {
+  width: 87%;
+  display: flex;
+  align-items: center;
 }
-.membership_main section .main_box .pw_contents input {
-    width: 402px; height: 52px; border: 1px solid #fff; 
-    border-radius: 5px; padding: 20px; color: #fff;
+.change_main section .change_box dl dd p {
+  color: #fff;
+  border: 1px solid #FFFFFF;
+  width: 200px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin: 0 10px;
 }
-.membership_main section .main_box .btn_area {
-    display: flex; justify-content: center; 
-    margin: 36px 0 108px;
+.change_main section .change_box dl dd .change_pw {
+  display: flex;
 }
-.membership_main section .main_box .btn_area .cancellation {
-    border: 1px solid #fff; color: #fff; 
-    border-radius: 5px; margin-right: 10px;
-    font-weight: 500;
+.change_main section .change_box dl dd a {
+  color: #fff;
+  border: 1px solid #FFFFFF;
+  width: 124px;
+  display: block;
+  padding: 10px 0;
+  border-radius: 6px;
+  text-align: center;
 }
-.membership_main section .main_box .btn_area .check{
-    border: 1px solid #F9880A;
-    color: #fff; font-weight: 500;
-    border-radius: 5px;
-    background-color: #F9880A;
+.change_main section .change_box dl dd input {
+  color: #fff;
+  border: 1px solid #FFFFFF;
+  width: 200px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin: 0 10px;
 }
+.change_main section .change_box .withdrawal {
+  font-size: 0.75rem;
+  color: #a6a6a6;
+  text-decoration: underline;
+  padding-top: 20px;
+}
+.change_main section .change_box .last_btn {
+  display: block;
+  width: 140px;
+  border-radius: 4px;
+  background-color: #45487E;
+  text-align: center;
+  padding: 15.5px 0 !important;
+  color: #fff;
+  padding: 25px 0;
+  margin: 0 auto;
+  margin-top: 40px;
+}/*# sourceMappingURL=membership.css.map */

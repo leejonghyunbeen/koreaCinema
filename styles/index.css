@@ -186,6 +186,11 @@ header .menu_sub .menu_survice .menu_list_wrap .list_sub a{
 header .menu_sub .menu_survice .menu_list_wrap .list_title{
     
 }
+header .menu_sub .menu_survice .list_sub{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s
+}
 header .menu_sub .menu_survice .list_sub li {
     margin-bottom: 20px;
 }
@@ -267,10 +272,20 @@ header .menu_sub .sub_info ul li:first-child a::after {
     overflow: hidden;
 }
 .main_bg1 {
-    background-image: url(../images/index_img/restmb_allidxmake.jpg);
+    background-image: url(../images/maxresdefault.jpg);
     width: 100%;
     height: calc(-150px + 100vh) !important;
     position: absolute;
+    background-position: bottom ;
+    background-size: cover ;
+}
+.main_bg2 {
+    background-image: url(../images/isp20240306000048.800x.0.jpg);
+    width: 100%;
+    height: calc(-150px + 100vh) !important;
+    position: absolute;
+    background-position: top ;
+    background-size: cover ;
 }
     
 .main_banner h1{
@@ -288,5 +303,10 @@ header .menu_sub .sub_info ul li:first-child a::after {
     position: absolute;
     top: 117px;
     left: 85px;
+}
+
+/* js */
+.menu_active{
+    max-height: 200px;
 }
 

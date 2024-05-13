@@ -40,7 +40,11 @@ menu_result = !menu_result
 })
 
 
-const list_sub =document.querySelectorAll('.list_sub')
-for(let i of list_sub){
-    
+const list_sub = document.querySelectorAll('.list_sub')
+const list_btn = document.querySelectorAll('.list_btn')
+
+for(let i of list_btn){
+    i.addEventListener('click',()=>{
+        list_btn.style = 'max-height: 0;'
+    })
 }
